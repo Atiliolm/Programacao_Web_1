@@ -1,0 +1,36 @@
+﻿body { 
+	background-color: salmon;
+}
+
+h1 {
+
+	font-family: arial;
+	text-align: center;
+	font-size: 40px;	
+}
+
+h2 {
+	color: blue;
+	font-family: arial;
+	text-align: left; 
+	font-size: 30px;
+}
+
+h3 {
+
+	font-family: arial;
+	text-align: left; 
+	font-size: 25px;
+}
+h4 {
+	font-family: arial;
+	text-align: left; 
+	font-size: 20px;
+}
+
+p {
+	font-family: arial;
+	color: black;
+	font-size: 20px;
+}
+

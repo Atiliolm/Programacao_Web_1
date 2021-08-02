@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Forms </title>
+		<style>
+			table, th, td {
+				color: LightPink;
+				border-collapse: collapse;
+				border: 1px solid black;
+				background-color: LavenderBlush;
+				vertical-align: top;
+			}
+		</style>
+</head>
+<body>
+<h3> Cadastro do Produto </h3>
+
+<form> 
+<table>
+<tr>
+	<td>Descrição:</td>
+	<td><input type="text" name="descricao"></td>
+</tr>
+	<tr>
+	<td>Categoria:</td>
+	<td><select name="categoria" class="select_form">
+		<option value="none" > Selecionar </option></td>
+	</select>
+	</tr>
+	
+	
+	<tr>
+	<td>Fornecedor</td>
+	<td><input type="text" name="fornecedor" class="fornecedor"></td>
+	</tr>
+	
+	
+	<tr>
+	<td>Unidade:</td>
+	<td><select name="unidade" class="select_form">
+		<option value="none" > Selecionar </option></td>
+	</select>
+	</tr>
+	
+	
+	<tr>
+	<td>Observações:</td>
+	<td><textarea rows="5" cols="15"> </textarea></td>
+	</tr>
+	
+	<tr>
+	<td><input type="reset" value="Limpar"></td>
+	<td><input type="submit" value="Cadastrar"></td>
+	</tr>
+	
+	
+</form>
+	
